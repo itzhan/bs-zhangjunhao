@@ -83,7 +83,7 @@ export const generatedRoutes: GeneratedRoute[] = [
       title: '运动会管理',
       icon: 'mdi:trophy-outline',
       order: 2,
-      roles: ['ROLE_ADMIN'],
+      roles: ['ROLE_ADMIN', 'ROLE_REFEREE'],
       i18nKey: 'route.sports'
     },
     children: [
@@ -149,7 +149,7 @@ export const generatedRoutes: GeneratedRoute[] = [
         meta: {
           title: '报名管理',
           icon: 'mdi:clipboard-list-outline',
-          roles: ['ROLE_ADMIN'],
+          roles: ['ROLE_ADMIN', 'ROLE_REFEREE'],
           i18nKey: 'route.sports_registrations'
         }
       },
@@ -160,7 +160,7 @@ export const generatedRoutes: GeneratedRoute[] = [
         meta: {
           title: '成绩管理',
           icon: 'mdi:chart-line',
-          roles: ['ROLE_ADMIN'],
+          roles: ['ROLE_ADMIN', 'ROLE_REFEREE'],
           i18nKey: 'route.sports_results'
         }
       },
@@ -171,7 +171,7 @@ export const generatedRoutes: GeneratedRoute[] = [
         meta: {
           title: '赛程管理',
           icon: 'mdi:calendar-clock',
-          roles: ['ROLE_ADMIN'],
+          roles: ['ROLE_ADMIN', 'ROLE_REFEREE'],
           i18nKey: 'route.sports_schedules'
         }
       },
