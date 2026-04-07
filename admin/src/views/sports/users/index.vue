@@ -67,7 +67,7 @@ onMounted(loadData);
           <NGridItem><NFormItem label="性别"><NSelect v-model:value="form.gender" :options="genderOptions" /></NFormItem></NGridItem>
           <NGridItem><NFormItem label="手机号"><NInput v-model:value="form.phone" /></NFormItem></NGridItem>
           <NGridItem><NFormItem label="邮箱"><NInput v-model:value="form.email" /></NFormItem></NGridItem>
-          <NGridItem><NFormItem label="角色"><NSelect v-model:value="form.role" :options="[{label:'管理员',value:'ADMIN'},{label:'裁判员',value:'REFEREE'},{label:'用户',value:'USER'}]" /></NFormItem></invoke></NGridItem>
+          <NGridItem><NFormItem label="角色"><NSelect v-model:value="form.role" :options="[{label:'管理员',value:'ADMIN'},{label:'裁判员',value:'REFEREE'},{label:'用户',value:'USER'}]" /></NFormItem></NGridItem>
           <NGridItem><NFormItem label="状态"><NSelect v-model:value="form.status" :options="statusOptions" /></NFormItem></NGridItem>
           <NGridItem><NFormItem label="新密码"><NInput v-model:value="form.password" placeholder="留空不修改" /></NFormItem></NGridItem>
         </NGrid>
